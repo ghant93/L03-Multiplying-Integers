@@ -99,7 +99,8 @@ var sketch = {
               "font-size": 28
             }
           }
-        }
+        },
+        "limitScrolling": true
       },
       "objects": {
         "1": {
@@ -113,7 +114,8 @@ var sketch = {
           },
           "label": "Next Page",
           "style": {
-            "color": "rgb(160,160,160)"
+            "color": "rgb(160,160,160)",
+            "selectable": false
           },
           "constraint": "ActionButtonLinkPage",
           "messages": [
@@ -131,7 +133,10 @@ var sketch = {
               "y": 81
             }
           },
-          "textMFS": "<VL<T'factor x factor = product'><T'  '><H<T'from Latin '><SS2<T'producere'>><T' \\\"something produced\\\"'>><H<T'from Latin '><SS2<T'factor'>><T' \\\"doer or maker\\\" '>><T'  '><T'Why are the numbers operated on given the same names in multiplication?'><0><0><T'How do you think multiplication is related to addition?'><0>>"
+          "textMFS": "<VL<T'factor x factor = product'><T'  '><H<T'from Latin '><SS2<T'producere'>><T' \\\"something produced\\\"'>><H<T'from Latin '><SS2<T'factor'>><T' \\\"doer or maker\\\" '>><T'  '><T'Why are the numbers operated on given the same names in multiplication?'><0><0><T'How do you think multiplication is related to addition?'><0>>",
+          "style": {
+            "selectable": false
+          }
         },
         "3": {
           "kind": "Text",
@@ -146,7 +151,8 @@ var sketch = {
           "textMFS": "<T'Multiplying Two Integers '>",
           "style": {
             "text-decoration": "underline",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         }
       }
@@ -237,7 +243,8 @@ var sketch = {
               "font-size": 28
             }
           }
-        }
+        },
+        "limitScrolling": true
       },
       "objects": {
         "1": {
@@ -258,7 +265,8 @@ var sketch = {
             "font-size": 16,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "2": {
@@ -279,7 +287,8 @@ var sketch = {
             "font-size": 16,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "3": {
@@ -302,7 +311,8 @@ var sketch = {
             "color": "rgb(255,128,0)",
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonAnimate",
           "messages": [
@@ -347,7 +357,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "5": {
@@ -368,7 +379,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "6": {
@@ -389,7 +401,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "7": {
@@ -410,7 +423,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "8": {
@@ -429,7 +443,8 @@ var sketch = {
             "hidden": true,
             "font-size": 10,
             "text-decoration": "none",
-            "color": "rgb(255,128,0)"
+            "color": "rgb(255,128,0)",
+            "selectable": false
           }
         },
         "9": {
@@ -448,7 +463,8 @@ var sketch = {
             "hidden": true,
             "font-size": 10,
             "text-decoration": "none",
-            "color": "rgb(255,128,0)"
+            "color": "rgb(255,128,0)",
+            "selectable": false
           }
         },
         "10": {
@@ -465,7 +481,10 @@ var sketch = {
           "messages": [
             "Next Page"
           ],
-          "pageId": "3"
+          "pageId": "3",
+          "style": {
+            "selectable": false
+          }
         },
         "11": {
           "kind": "Expression",
@@ -487,7 +506,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "12": {
@@ -511,7 +531,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "13": {
@@ -532,7 +553,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "14": {
@@ -553,7 +575,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "15": {
@@ -574,7 +597,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "16": {
@@ -595,7 +619,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "17": {
@@ -616,7 +641,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "18": {
@@ -637,7 +663,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "19": {
@@ -658,7 +685,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "20": {
@@ -679,7 +707,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "21": {
@@ -700,7 +729,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "22": {
@@ -721,7 +751,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "23": {
@@ -742,7 +773,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "24": {
@@ -758,7 +790,8 @@ var sketch = {
           "textMFS": "<T'Multiplying Two Integers Investigation - First Factor Positive '>",
           "style": {
             "font-size": 20,
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "25": {
@@ -963,7 +996,8 @@ var sketch = {
             "hidden": true,
             "font-size": 10,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "38": {
@@ -982,7 +1016,8 @@ var sketch = {
             "hidden": true,
             "font-size": 10,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "39": {
@@ -1122,7 +1157,8 @@ var sketch = {
           "textMFS": "<VL<H<T'What happens when the '><SS2<T'first'>><T' factor is positive? How does the model represent this?'>><0><0><H<T'What happens when the '><SS2<T'second '>><T'factor is positive?  How does the model represent this?'>><0><0><H<T'What happens when the '><SS2<T'second'>><T' factor is negative?  How does the model represent this?'>>>",
           "style": {
             "text-decoration": "none",
-            "color": "green"
+            "color": "green",
+            "selectable": false
           }
         },
         "48": {
@@ -1142,7 +1178,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "49": {
@@ -1162,7 +1199,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "50": {
@@ -1222,7 +1260,10 @@ var sketch = {
               "upperParamBound": 1,
               "discrete": false
             }
-          ]
+          ],
+          "style": {
+            "selectable": false
+          }
         },
         "51": {
           "kind": "Expression",
@@ -1243,7 +1284,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "52": {
@@ -1265,7 +1307,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "53": {
@@ -1287,7 +1330,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "54": {
@@ -1309,7 +1353,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "55": {
@@ -1332,7 +1377,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "56": {
@@ -1356,7 +1402,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "57": {
@@ -1379,7 +1426,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "58": {
@@ -1403,7 +1451,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "59": {
@@ -1426,7 +1475,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "60": {
@@ -1450,7 +1500,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "61": {
@@ -1473,7 +1524,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "62": {
@@ -1494,7 +1546,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "63": {
@@ -1533,7 +1586,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "65": {
@@ -1556,7 +1610,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "66": {
@@ -1577,7 +1632,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "67": {
@@ -1616,7 +1672,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "69": {
@@ -1637,7 +1694,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "70": {
@@ -1677,7 +1735,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "72": {
@@ -1700,7 +1759,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "73": {
@@ -1724,7 +1784,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "74": {
@@ -1747,7 +1808,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "75": {
@@ -1771,7 +1833,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "76": {
@@ -1794,7 +1857,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "77": {
@@ -1818,7 +1882,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "78": {
@@ -1841,7 +1906,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "79": {
@@ -1865,7 +1931,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "80": {
@@ -1888,7 +1955,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "81": {
@@ -1912,7 +1980,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "82": {
@@ -1935,7 +2004,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "83": {
@@ -1958,7 +2028,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "84": {
@@ -1982,7 +2053,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "85": {
@@ -2005,7 +2077,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "86": {
@@ -2028,7 +2101,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "87": {
@@ -2052,7 +2126,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "88": {
@@ -2075,7 +2150,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "89": {
@@ -2099,7 +2175,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "90": {
@@ -2123,7 +2200,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "91": {
@@ -2146,7 +2224,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "92": {
@@ -2169,7 +2248,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "93": {
@@ -2193,7 +2273,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "94": {
@@ -2216,7 +2297,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "95": {
@@ -2240,7 +2322,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "96": {
@@ -2263,7 +2346,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "97": {
@@ -2286,7 +2370,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "98": {
@@ -2309,7 +2394,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "99": {
@@ -2333,7 +2419,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "100": {
@@ -2356,7 +2443,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "101": {
@@ -2379,7 +2467,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "102": {
@@ -2402,7 +2491,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "103": {
@@ -2425,7 +2515,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "104": {
@@ -2448,7 +2539,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "105": {
@@ -2471,7 +2563,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "106": {
@@ -2493,7 +2586,8 @@ var sketch = {
             "hidden": true,
             "font-size": 10,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "107": {
@@ -2516,7 +2610,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "108": {
@@ -2539,7 +2634,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "109": {
@@ -2560,7 +2656,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "110": {
@@ -2590,7 +2687,8 @@ var sketch = {
           "style": {
             "font-size": 16,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "112": {
@@ -2613,7 +2711,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "113": {
@@ -2636,7 +2735,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "114": {
@@ -2657,7 +2757,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "115": {
@@ -2687,7 +2788,8 @@ var sketch = {
           "style": {
             "font-size": 16,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "117": {
@@ -2710,7 +2812,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "118": {
@@ -2731,7 +2834,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "119": {
@@ -2761,7 +2865,8 @@ var sketch = {
           "style": {
             "font-size": 16,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "121": {
@@ -2784,7 +2889,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "122": {
@@ -2808,7 +2914,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "123": {
@@ -2829,7 +2936,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "124": {
@@ -2869,7 +2977,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "126": {
@@ -2890,7 +2999,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "127": {
@@ -2929,7 +3039,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "129": {
@@ -2953,7 +3064,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "130": {
@@ -2974,7 +3086,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "131": {
@@ -3014,7 +3127,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "133": {
@@ -3035,7 +3149,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "134": {
@@ -3075,7 +3190,8 @@ var sketch = {
             "hidden": true,
             "font-size": 12,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "136": {
@@ -3089,7 +3205,8 @@ var sketch = {
           "style": {
             "font-size": 16,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "137": {
@@ -3113,7 +3230,8 @@ var sketch = {
             "hidden": true,
             "font-size": 12,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "138": {
@@ -3127,7 +3245,8 @@ var sketch = {
           "style": {
             "font-size": 16,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "139": {
@@ -3140,7 +3259,8 @@ var sketch = {
           "constraint": "Pegged",
           "style": {
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "140": {
@@ -3164,7 +3284,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "141": {
@@ -3186,7 +3307,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "142": {
@@ -3207,7 +3329,8 @@ var sketch = {
           "textMFS": "<VL<H<?1xC0001<H<T'5'>>><T'('><?1xC0002<H<T'6'>>><T') = '><?1xC0003<H<T'30'>>>>>",
           "style": {
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "143": {
@@ -3230,7 +3353,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "144": {
@@ -3254,7 +3378,8 @@ var sketch = {
             "hidden": true,
             "font-size": 12,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "145": {
@@ -3267,7 +3392,8 @@ var sketch = {
           "constraint": "Pegged",
           "style": {
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "146": {
@@ -3291,7 +3417,8 @@ var sketch = {
             "hidden": true,
             "font-size": 12,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "147": {
@@ -3304,7 +3431,8 @@ var sketch = {
           "constraint": "Pegged",
           "style": {
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "148": {
@@ -3328,7 +3456,8 @@ var sketch = {
             "hidden": true,
             "font-size": 12,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "149": {
@@ -3342,7 +3471,8 @@ var sketch = {
           "style": {
             "font-size": 16,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "150": {
@@ -3366,7 +3496,8 @@ var sketch = {
             "hidden": true,
             "font-size": 12,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "151": {
@@ -3380,7 +3511,8 @@ var sketch = {
           "style": {
             "font-size": 16,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "152": {
@@ -3403,7 +3535,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "153": {
@@ -3506,7 +3639,8 @@ var sketch = {
             "hidden": true,
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonToggleHideShow",
           "messages": [
@@ -3532,7 +3666,8 @@ var sketch = {
           "style": {
             "font-size": 16,
             "text-decoration": "none",
-            "color": "red"
+            "color": "red",
+            "selectable": false
           }
         },
         "155": {
@@ -3552,7 +3687,8 @@ var sketch = {
           "style": {
             "font-size": 16,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "156": {
@@ -3569,7 +3705,8 @@ var sketch = {
           "latentVisibility": true,
           "style": {
             "hidden": true,
-            "text-decoration": "none"
+            "text-decoration": "none",
+            "selectable": false
           }
         },
         "157": {
@@ -3589,7 +3726,10 @@ var sketch = {
           "messages": [
             "Hide Solution",
             "Show Solution"
-          ]
+          ],
+          "style": {
+            "selectable": false
+          }
         },
         "158": {
           "kind": "Button",
@@ -3605,7 +3745,10 @@ var sketch = {
           "messages": [
             "Previous Page"
           ],
-          "pageId": "1"
+          "pageId": "1",
+          "style": {
+            "selectable": false
+          }
         },
         "159": {
           "kind": "Point",
@@ -3640,7 +3783,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "161": {
@@ -3660,7 +3804,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "162": {
@@ -3680,7 +3825,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "163": {
@@ -3700,7 +3846,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "164": {
@@ -3720,7 +3867,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "165": {
@@ -3803,7 +3951,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "170": {
@@ -3825,7 +3974,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "171": {
@@ -3890,7 +4040,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "175": {
@@ -3912,7 +4063,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "176": {
@@ -3935,7 +4087,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "177": {
@@ -3957,7 +4110,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "178": {
@@ -3980,7 +4134,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "179": {
@@ -4002,7 +4157,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "180": {
@@ -4025,7 +4181,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "181": {
@@ -4047,7 +4204,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "182": {
@@ -4605,7 +4763,8 @@ var sketch = {
               "font-size": 28
             }
           }
-        }
+        },
+        "limitScrolling": true
       },
       "objects": {
         "1": {
@@ -4626,7 +4785,8 @@ var sketch = {
             "font-size": 16,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "2": {
@@ -4647,7 +4807,8 @@ var sketch = {
             "font-size": 16,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "3": {
@@ -4670,7 +4831,8 @@ var sketch = {
             "color": "rgb(255,128,0)",
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonAnimate",
           "messages": [
@@ -4715,7 +4877,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "5": {
@@ -4736,7 +4899,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "6": {
@@ -4757,7 +4921,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "7": {
@@ -4778,7 +4943,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "8": {
@@ -4797,7 +4963,8 @@ var sketch = {
             "hidden": true,
             "font-size": 10,
             "text-decoration": "none",
-            "color": "rgb(255,128,0)"
+            "color": "rgb(255,128,0)",
+            "selectable": false
           }
         },
         "9": {
@@ -4816,7 +4983,8 @@ var sketch = {
             "hidden": true,
             "font-size": 10,
             "text-decoration": "none",
-            "color": "rgb(255,128,0)"
+            "color": "rgb(255,128,0)",
+            "selectable": false
           }
         },
         "10": {
@@ -4833,7 +5001,10 @@ var sketch = {
           "messages": [
             "Next Page"
           ],
-          "pageId": "4"
+          "pageId": "4",
+          "style": {
+            "selectable": false
+          }
         },
         "11": {
           "kind": "Expression",
@@ -4855,7 +5026,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "12": {
@@ -4879,7 +5051,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "13": {
@@ -4900,7 +5073,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "14": {
@@ -4921,7 +5095,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "15": {
@@ -4942,7 +5117,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "16": {
@@ -4963,7 +5139,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "17": {
@@ -4984,7 +5161,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "18": {
@@ -5005,7 +5183,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "19": {
@@ -5026,7 +5205,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "20": {
@@ -5047,7 +5227,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "21": {
@@ -5068,7 +5249,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "22": {
@@ -5089,7 +5271,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "23": {
@@ -5110,7 +5293,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "24": {
@@ -5126,7 +5310,8 @@ var sketch = {
           "textMFS": "<T'Multiplying Two Integers  Investigation - First Factor Negative'>",
           "style": {
             "font-size": 20,
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "25": {
@@ -5331,7 +5516,8 @@ var sketch = {
             "hidden": true,
             "font-size": 10,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "38": {
@@ -5350,7 +5536,8 @@ var sketch = {
             "hidden": true,
             "font-size": 10,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "39": {
@@ -5490,7 +5677,8 @@ var sketch = {
           "textMFS": "<VL<T'What happens when the first factor is negative? '><T'How does the model represent this? '><0><0><0><T'What happens when the second factor is positive?  '><T'How does the model represent this? '><0><0><0><T'What happens when the second factor is negative?  '><T'How does the model represent this? '>>",
           "style": {
             "text-decoration": "none",
-            "color": "green"
+            "color": "green",
+            "selectable": false
           }
         },
         "48": {
@@ -5510,7 +5698,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "49": {
@@ -5530,7 +5719,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "50": {
@@ -5590,7 +5780,10 @@ var sketch = {
               "upperParamBound": 1,
               "discrete": false
             }
-          ]
+          ],
+          "style": {
+            "selectable": false
+          }
         },
         "51": {
           "kind": "Expression",
@@ -5611,7 +5804,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "52": {
@@ -5633,7 +5827,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "53": {
@@ -5655,7 +5850,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "54": {
@@ -5677,7 +5873,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "55": {
@@ -5700,7 +5897,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "56": {
@@ -5724,7 +5922,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "57": {
@@ -5747,7 +5946,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "58": {
@@ -5771,7 +5971,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "59": {
@@ -5794,7 +5995,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "60": {
@@ -5818,7 +6020,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "61": {
@@ -5841,7 +6044,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "62": {
@@ -5862,7 +6066,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "63": {
@@ -5901,7 +6106,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "65": {
@@ -5924,7 +6130,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "66": {
@@ -5945,7 +6152,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "67": {
@@ -5984,7 +6192,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "69": {
@@ -6005,7 +6214,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "70": {
@@ -6045,7 +6255,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "72": {
@@ -6068,7 +6279,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "73": {
@@ -6092,7 +6304,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "74": {
@@ -6115,7 +6328,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "75": {
@@ -6139,7 +6353,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "76": {
@@ -6162,7 +6377,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "77": {
@@ -6186,7 +6402,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "78": {
@@ -6209,7 +6426,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "79": {
@@ -6233,7 +6451,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "80": {
@@ -6256,7 +6475,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "81": {
@@ -6280,7 +6500,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "82": {
@@ -6303,7 +6524,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "83": {
@@ -6326,7 +6548,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "84": {
@@ -6350,7 +6573,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "85": {
@@ -6373,7 +6597,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "86": {
@@ -6396,7 +6621,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "87": {
@@ -6420,7 +6646,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "88": {
@@ -6443,7 +6670,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "89": {
@@ -6467,7 +6695,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "90": {
@@ -6491,7 +6720,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "91": {
@@ -6514,7 +6744,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "92": {
@@ -6537,7 +6768,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "93": {
@@ -6561,7 +6793,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "94": {
@@ -6584,7 +6817,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "95": {
@@ -6608,7 +6842,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "96": {
@@ -6631,7 +6866,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "97": {
@@ -6654,7 +6890,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "98": {
@@ -6677,7 +6914,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "99": {
@@ -6701,7 +6939,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "100": {
@@ -6724,7 +6963,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "101": {
@@ -6747,7 +6987,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "102": {
@@ -6770,7 +7011,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "103": {
@@ -6793,7 +7035,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "104": {
@@ -6816,7 +7059,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "105": {
@@ -6839,7 +7083,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "106": {
@@ -6861,7 +7106,8 @@ var sketch = {
             "hidden": true,
             "font-size": 10,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "107": {
@@ -6884,7 +7130,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "108": {
@@ -6907,7 +7154,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "109": {
@@ -6928,7 +7176,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "110": {
@@ -6958,7 +7207,8 @@ var sketch = {
           "style": {
             "font-size": 16,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "112": {
@@ -6981,7 +7231,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "113": {
@@ -7004,7 +7255,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "114": {
@@ -7025,7 +7277,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "115": {
@@ -7055,7 +7308,8 @@ var sketch = {
           "style": {
             "font-size": 16,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "117": {
@@ -7078,7 +7332,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "118": {
@@ -7099,7 +7354,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "119": {
@@ -7129,7 +7385,8 @@ var sketch = {
           "style": {
             "font-size": 16,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "121": {
@@ -7152,7 +7409,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "122": {
@@ -7176,7 +7434,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "123": {
@@ -7197,7 +7456,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "124": {
@@ -7237,7 +7497,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "126": {
@@ -7258,7 +7519,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "127": {
@@ -7297,7 +7559,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "129": {
@@ -7321,7 +7584,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "130": {
@@ -7342,7 +7606,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "131": {
@@ -7382,7 +7647,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "133": {
@@ -7403,7 +7669,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "134": {
@@ -7443,7 +7710,8 @@ var sketch = {
             "hidden": true,
             "font-size": 12,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "136": {
@@ -7456,7 +7724,8 @@ var sketch = {
           "constraint": "Pegged",
           "style": {
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "137": {
@@ -7480,7 +7749,8 @@ var sketch = {
             "hidden": true,
             "font-size": 12,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "138": {
@@ -7494,7 +7764,8 @@ var sketch = {
           "style": {
             "font-size": 16,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "139": {
@@ -7508,7 +7779,8 @@ var sketch = {
           "style": {
             "font-size": 16,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "140": {
@@ -7532,7 +7804,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "141": {
@@ -7554,7 +7827,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "142": {
@@ -7575,7 +7849,8 @@ var sketch = {
           "textMFS": "<VL<H<?1xC0001<H<T'\u20133'>>><T'('><?1xC0002<H<T'3'>>><T') = '><?1xC0003<H<T'\u20139'>>>>>",
           "style": {
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "143": {
@@ -7598,7 +7873,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "144": {
@@ -7622,7 +7898,8 @@ var sketch = {
             "hidden": true,
             "font-size": 12,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "145": {
@@ -7636,7 +7913,8 @@ var sketch = {
           "style": {
             "font-size": 16,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "146": {
@@ -7660,7 +7938,8 @@ var sketch = {
             "hidden": true,
             "font-size": 12,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "147": {
@@ -7674,7 +7953,8 @@ var sketch = {
           "style": {
             "font-size": 16,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "148": {
@@ -7698,7 +7978,8 @@ var sketch = {
             "hidden": true,
             "font-size": 12,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "149": {
@@ -7711,7 +7992,8 @@ var sketch = {
           "constraint": "Pegged",
           "style": {
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "150": {
@@ -7735,7 +8017,8 @@ var sketch = {
             "hidden": true,
             "font-size": 12,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "151": {
@@ -7748,7 +8031,8 @@ var sketch = {
           "constraint": "Pegged",
           "style": {
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "152": {
@@ -7771,7 +8055,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "153": {
@@ -7874,7 +8159,8 @@ var sketch = {
             "hidden": true,
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonToggleHideShow",
           "messages": [
@@ -7899,7 +8185,8 @@ var sketch = {
           "textMFS": "<H<T'first integer = '><?1xC0001<H<T'\u20133'>>>>",
           "style": {
             "font-size": 16,
-            "text-decoration": "none"
+            "text-decoration": "none",
+            "selectable": false
           }
         },
         "155": {
@@ -7919,7 +8206,8 @@ var sketch = {
           "style": {
             "font-size": 16,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "156": {
@@ -7937,7 +8225,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "text-decoration": "none",
-            "color": "fuchsia"
+            "color": "fuchsia",
+            "selectable": false
           }
         },
         "157": {
@@ -7957,7 +8246,10 @@ var sketch = {
           "messages": [
             "Hide Solution",
             "Show Solution"
-          ]
+          ],
+          "style": {
+            "selectable": false
+          }
         },
         "158": {
           "kind": "Button",
@@ -7973,7 +8265,10 @@ var sketch = {
           "messages": [
             "Previous Page"
           ],
-          "pageId": "2"
+          "pageId": "2",
+          "style": {
+            "selectable": false
+          }
         },
         "159": {
           "kind": "Expression",
@@ -7995,7 +8290,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "160": {
@@ -8018,7 +8314,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "161": {
@@ -8041,7 +8338,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "162": {
@@ -8064,7 +8362,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "163": {
@@ -8087,7 +8386,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "164": {
@@ -8109,7 +8409,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "165": {
@@ -8131,7 +8432,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "166": {
@@ -8153,7 +8455,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "167": {
@@ -8175,7 +8478,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "168": {
@@ -8197,7 +8501,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "169": {
@@ -9986,7 +10291,8 @@ var sketch = {
               "font-size": 28
             }
           }
-        }
+        },
+        "limitScrolling": true
       },
       "objects": {
         "1": {
@@ -10006,7 +10312,8 @@ var sketch = {
             "font-size": 16,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "2": {
@@ -10026,7 +10333,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "3": {
@@ -10046,7 +10354,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "4": {
@@ -10066,7 +10375,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "5": {
@@ -10086,7 +10396,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "6": {
@@ -10103,7 +10414,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "font-size": 10,
-            "color": "rgb(255,128,0)"
+            "color": "rgb(255,128,0)",
+            "selectable": false
           }
         },
         "7": {
@@ -10120,7 +10432,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "font-size": 10,
-            "color": "rgb(255,128,0)"
+            "color": "rgb(255,128,0)",
+            "selectable": false
           }
         },
         "8": {
@@ -10137,7 +10450,10 @@ var sketch = {
           "messages": [
             "Next Page"
           ],
-          "pageId": "5"
+          "pageId": "5",
+          "style": {
+            "selectable": false
+          }
         },
         "9": {
           "kind": "Expression",
@@ -10158,7 +10474,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "10": {
@@ -10180,7 +10497,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "11": {
@@ -10202,7 +10520,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "12": {
@@ -10224,7 +10543,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "13": {
@@ -10244,7 +10564,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "14": {
@@ -10264,7 +10585,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "15": {
@@ -10284,7 +10606,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "16": {
@@ -10304,7 +10627,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "17": {
@@ -10324,7 +10648,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "18": {
@@ -10344,7 +10669,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "19": {
@@ -10364,7 +10690,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "20": {
@@ -10384,7 +10711,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "21": {
@@ -10404,7 +10732,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "22": {
@@ -10424,7 +10753,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "23": {
@@ -10444,7 +10774,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "24": {
@@ -10466,7 +10797,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "25": {
@@ -10488,7 +10820,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "26": {
@@ -10690,7 +11023,8 @@ var sketch = {
           "textMFS": "<T'Adding or removing groups of zero will still give zero.'>",
           "style": {
             "hidden": true,
-            "font-size": 10
+            "font-size": 10,
+            "selectable": false
           }
         },
         "39": {
@@ -10706,7 +11040,8 @@ var sketch = {
           "textMFS": "<T'0 groups of 0 is zero.'>",
           "style": {
             "hidden": true,
-            "font-size": 10
+            "font-size": 10,
+            "selectable": false
           }
         },
         "40": {
@@ -10843,7 +11178,10 @@ var sketch = {
               "y": 266
             }
           },
-          "textMFS": "<VL<T'Input both positive and negative values between -5 and 5 for the'><T'first integer. Input both positive and negative values for the'><T'second integer.'><0><SR1G81L1<T'When is the product of two integers positive?'>><0><0><SR1G81L1<T'When is the product of two integers negative?'>><F110xxFFFFFFFFx20xC0x>>"
+          "textMFS": "<VL<T'Input both positive and negative values between -5 and 5 for the'><T'first integer. Input both positive and negative values for the'><T'second integer.'><0><SR1G81L1<T'When is the product of two integers positive?'>><0><0><SR1G81L1<T'When is the product of two integers negative?'>><F110xxFFFFFFFFx20xC0x>>",
+          "style": {
+            "selectable": false
+          }
         },
         "49": {
           "kind": "Expression",
@@ -10862,7 +11200,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "50": {
@@ -10882,7 +11221,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "51": {
@@ -10904,7 +11244,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "52": {
@@ -10926,7 +11267,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "53": {
@@ -10948,7 +11290,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "54": {
@@ -10970,7 +11313,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "55": {
@@ -10993,7 +11337,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "56": {
@@ -11016,7 +11361,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "57": {
@@ -11038,7 +11384,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "58": {
@@ -11057,7 +11404,8 @@ var sketch = {
           "textMFS": "<H<T'Adding 0 groups of '><?1xC0001<H<T'\u20137'>>><T' will still give zero.'>>",
           "style": {
             "hidden": true,
-            "font-size": 10
+            "font-size": 10,
+            "selectable": false
           }
         },
         "59": {
@@ -11079,7 +11427,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "60": {
@@ -11101,7 +11450,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "61": {
@@ -11123,7 +11473,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "62": {
@@ -11145,7 +11496,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "63": {
@@ -11167,7 +11519,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "64": {
@@ -11189,7 +11542,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "65": {
@@ -11206,7 +11560,8 @@ var sketch = {
           "latentVisibility": true,
           "style": {
             "hidden": true,
-            "color": "fuchsia"
+            "color": "fuchsia",
+            "selectable": false
           }
         },
         "66": {
@@ -11226,7 +11581,10 @@ var sketch = {
           "messages": [
             "Hide Solution",
             "Show Solution"
-          ]
+          ],
+          "style": {
+            "selectable": false
+          }
         },
         "67": {
           "kind": "Text",
@@ -11241,7 +11599,8 @@ var sketch = {
           "textMFS": "<T'Multiplying Two Integers Consolidation '>",
           "style": {
             "font-size": 20,
-            "text-decoration": "underline"
+            "text-decoration": "underline",
+            "selectable": false
           }
         },
         "68": {
@@ -11258,7 +11617,10 @@ var sketch = {
           "messages": [
             "Previous Page"
           ],
-          "pageId": "3"
+          "pageId": "3",
+          "style": {
+            "selectable": false
+          }
         },
         "69": {
           "kind": "Point",
@@ -12383,7 +12745,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "145": {
@@ -12403,7 +12766,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "146": {
@@ -12423,7 +12787,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "147": {
@@ -12446,7 +12811,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "148": {
@@ -12542,7 +12908,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "154": {
@@ -12564,7 +12931,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "155": {
@@ -12585,7 +12953,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "156": {
@@ -12606,7 +12975,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "157": {
@@ -12656,7 +13026,8 @@ var sketch = {
           },
           "label": "+",
           "style": {
-            "color": "black"
+            "color": "black",
+            "selectable": false
           },
           "constraint": "ActionButtonMove",
           "messages": [
@@ -12679,7 +13050,8 @@ var sketch = {
           },
           "label": "\u2013",
           "style": {
-            "color": "black"
+            "color": "black",
+            "selectable": false
           },
           "constraint": "ActionButtonMove",
           "messages": [
@@ -12708,7 +13080,8 @@ var sketch = {
           "style": {
             "font-size": 16,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "162": {
@@ -12730,7 +13103,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "163": {
@@ -12753,7 +13127,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "164": {
@@ -12775,7 +13150,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "165": {
@@ -12798,7 +13174,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "166": {
@@ -12819,7 +13196,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "167": {
@@ -12841,7 +13219,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "168": {
@@ -12864,7 +13243,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "169": {
@@ -12887,7 +13267,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "170": {
@@ -12910,7 +13291,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "171": {
@@ -12933,7 +13315,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "172": {
@@ -12956,7 +13339,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "173": {
@@ -12977,7 +13361,8 @@ var sketch = {
           "textMFS": "<VL<H<?1xC0001<H<T'4'>>><T' groups of '><?1xC0002<H<T'7'>>><T' '><SR1G1L100<T'blue'>><T' counters were removed leaving '><?1xC0003<H<T'28'>>><T' more '><SR100G1L1<T'red'>><T' counters.'>>>",
           "style": {
             "hidden": true,
-            "font-size": 12
+            "font-size": 12,
+            "selectable": false
           }
         },
         "174": {
@@ -12998,7 +13383,8 @@ var sketch = {
           "textMFS": "<VL<H<?1xC0001<H<T'4'>>><T' groups of '><?1xC0002<H<T'7'>>><T' '><SR100G1L1<T'red'>><T' counters were removed leaving '><?1xC0003<H<T'28'>>><T' more '><SR1G1L100<T'blue'>><T' counters.'>>>",
           "style": {
             "hidden": true,
-            "font-size": 12
+            "font-size": 12,
+            "selectable": false
           }
         },
         "175": {
@@ -13019,7 +13405,8 @@ var sketch = {
           "textMFS": "<VL<H<?1xC0001<H<T'4'>>><T' groups of '><?1xC0002<H<T'7'>>><T' '><SR100G1L1<T'red'>><T' counters were added giving a total of '><?1xC0003<H<T'28'>>><T' '><SR100G1L1<T'red'>><T' counters.'>>>",
           "style": {
             "hidden": true,
-            "font-size": 12
+            "font-size": 12,
+            "selectable": false
           }
         },
         "176": {
@@ -13040,7 +13427,8 @@ var sketch = {
           "textMFS": "<VL<H<?1xC0001<H<T'4'>>><T' groups of '><?1xC0002<H<T'7'>>><T' '><SR1G1L100<T'blue'>><T' counters were added giving a total of '><?1xC0003<H<T'28'>>><T' '><SR1G1L100<T'blue'>><T' counters.'>>>",
           "style": {
             "hidden": true,
-            "font-size": 12
+            "font-size": 12,
+            "selectable": false
           }
         },
         "177": {
@@ -13061,7 +13449,8 @@ var sketch = {
           "textMFS": "<VL<H<?1xC0001<H<T'\u20134'>>><T'('><?1xC0002<H<T'\u20137'>>><T') can be viewed as adding '><?1xC0003<H<T'4'>>><T' groups of '><?1xC0002<H<T'\u20137'>>><T' to zero.'>>>",
           "style": {
             "hidden": true,
-            "font-size": 12
+            "font-size": 12,
+            "selectable": false
           }
         },
         "178": {
@@ -13082,7 +13471,8 @@ var sketch = {
           "textMFS": "<VL<H<?1xC0001<H<T'\u20134'>>><T'('><?1xC0002<H<T'\u20137'>>><T') can be viewed as removing '><?1xC0003<H<T'4'>>><T' groups of '><?1xC0002<H<T'\u20137'>>><T' from zero.'>>>",
           "style": {
             "hidden": true,
-            "font-size": 12
+            "font-size": 12,
+            "selectable": false
           }
         },
         "179": {
@@ -13104,7 +13494,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "180": {
@@ -13127,7 +13518,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "181": {
@@ -13149,7 +13541,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "182": {
@@ -13172,7 +13565,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "183": {
@@ -13195,7 +13589,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "184": {
@@ -13217,7 +13612,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "185": {
@@ -13239,7 +13635,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "186": {
@@ -13262,7 +13659,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "187": {
@@ -13284,7 +13682,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "188": {
@@ -13307,7 +13706,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "189": {
@@ -13330,7 +13730,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "190": {
@@ -13352,7 +13753,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "191": {
@@ -13374,7 +13776,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "192": {
@@ -13397,7 +13800,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "193": {
@@ -13419,7 +13823,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "194": {
@@ -13441,7 +13846,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "195": {
@@ -13464,7 +13870,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "196": {
@@ -13486,7 +13893,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "197": {
@@ -13509,7 +13917,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "198": {
@@ -13531,7 +13940,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "199": {
@@ -13554,7 +13964,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "200": {
@@ -13576,7 +13987,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "201": {
@@ -13599,7 +14011,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "202": {
@@ -13621,7 +14034,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "203": {
@@ -13644,7 +14058,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "204": {
@@ -13666,7 +14081,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "205": {
@@ -13688,7 +14104,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "206": {
@@ -13711,7 +14128,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "207": {
@@ -13732,7 +14150,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "208": {
@@ -13760,7 +14179,8 @@ var sketch = {
           },
           "constraint": "Pegged",
           "style": {
-            "font-size": 16
+            "font-size": 16,
+            "selectable": false
           }
         },
         "210": {
@@ -13783,7 +14203,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "211": {
@@ -13804,7 +14225,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "212": {
@@ -13830,7 +14252,10 @@ var sketch = {
             "p0": "212",
             "text": "176"
           },
-          "constraint": "Pegged"
+          "constraint": "Pegged",
+          "style": {
+            "selectable": false
+          }
         },
         "214": {
           "kind": "Expression",
@@ -13850,7 +14275,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "215": {
@@ -13876,7 +14302,10 @@ var sketch = {
             "p0": "215",
             "text": "177"
           },
-          "constraint": "Pegged"
+          "constraint": "Pegged",
+          "style": {
+            "selectable": false
+          }
         },
         "217": {
           "kind": "Expression",
@@ -13897,7 +14326,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "218": {
@@ -13920,7 +14350,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "219": {
@@ -13941,7 +14372,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "220": {
@@ -13969,7 +14401,8 @@ var sketch = {
           },
           "constraint": "Pegged",
           "style": {
-            "font-size": 16
+            "font-size": 16,
+            "selectable": false
           }
         },
         "222": {
@@ -13992,7 +14425,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "223": {
@@ -14013,7 +14447,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "224": {
@@ -14039,7 +14474,10 @@ var sketch = {
             "p0": "224",
             "text": "173"
           },
-          "constraint": "Pegged"
+          "constraint": "Pegged",
+          "style": {
+            "selectable": false
+          }
         },
         "226": {
           "kind": "Expression",
@@ -14059,7 +14497,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "227": {
@@ -14085,7 +14524,10 @@ var sketch = {
             "p0": "227",
             "text": "178"
           },
-          "constraint": "Pegged"
+          "constraint": "Pegged",
+          "style": {
+            "selectable": false
+          }
         },
         "229": {
           "kind": "Expression",
@@ -14106,7 +14548,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "230": {
@@ -14129,7 +14572,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "231": {
@@ -14150,7 +14594,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "232": {
@@ -14178,7 +14623,8 @@ var sketch = {
           },
           "constraint": "Pegged",
           "style": {
-            "font-size": 16
+            "font-size": 16,
+            "selectable": false
           }
         },
         "234": {
@@ -14201,7 +14647,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "235": {
@@ -14222,7 +14669,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "236": {
@@ -14248,7 +14696,10 @@ var sketch = {
             "p0": "236",
             "text": "58"
           },
-          "constraint": "Pegged"
+          "constraint": "Pegged",
+          "style": {
+            "selectable": false
+          }
         },
         "238": {
           "kind": "Expression",
@@ -14269,7 +14720,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "239": {
@@ -14292,7 +14744,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "240": {
@@ -14313,7 +14766,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "241": {
@@ -14341,7 +14795,8 @@ var sketch = {
           },
           "constraint": "Pegged",
           "style": {
-            "font-size": 16
+            "font-size": 16,
+            "selectable": false
           }
         },
         "243": {
@@ -14362,7 +14817,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "244": {
@@ -14388,7 +14844,10 @@ var sketch = {
             "p0": "244",
             "text": "177"
           },
-          "constraint": "Pegged"
+          "constraint": "Pegged",
+          "style": {
+            "selectable": false
+          }
         },
         "246": {
           "kind": "Text",
@@ -14405,7 +14864,10 @@ var sketch = {
               "y": 129
             }
           },
-          "textMFS": "<VL<H<?1xC0001<H<T'\u20134'>>><T'('><?1xC0002<H<T'\u20137'>>><T') = '><?1xC0003<H<T'28'>>>>>"
+          "textMFS": "<VL<H<?1xC0001<H<T'\u20134'>>><T'('><?1xC0002<H<T'\u20137'>>><T') = '><?1xC0003<H<T'28'>>>>>",
+          "style": {
+            "selectable": false
+          }
         },
         "247": {
           "kind": "Expression",
@@ -14426,7 +14888,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "248": {
@@ -14449,7 +14912,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "249": {
@@ -14590,7 +15054,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "258": {
@@ -14731,7 +15196,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "267": {
@@ -14872,7 +15338,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "276": {
@@ -15013,7 +15480,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "285": {
@@ -15154,7 +15622,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "294": {
@@ -15176,7 +15645,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "295": {
@@ -15199,7 +15669,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "296": {
@@ -15222,7 +15693,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "297": {
@@ -15245,7 +15717,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "298": {
@@ -15268,7 +15741,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "299": {
@@ -15291,7 +15765,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "300": {
@@ -15314,7 +15789,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "301": {
@@ -15989,7 +16465,8 @@ var sketch = {
               "font-size": 28
             }
           }
-        }
+        },
+        "limitScrolling": true
       },
       "objects": {
         "1": {
@@ -16077,7 +16554,8 @@ var sketch = {
           "constraint": "CoordSys",
           "shape": "square",
           "style": {
-            "grid": "gridlines"
+            "grid": "gridlines",
+            "selectable": false
           }
         },
         "7": {
@@ -16120,7 +16598,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "9": {
@@ -16157,7 +16636,8 @@ var sketch = {
             "hidden": true,
             "precision": 1,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "11": {
@@ -16428,7 +16908,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "29": {
@@ -16449,7 +16930,8 @@ var sketch = {
             "hidden": true,
             "precision": 1,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "30": {
@@ -16966,7 +17448,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "63": {
@@ -16988,7 +17471,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "64": {
@@ -17011,7 +17495,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "65": {
@@ -17034,7 +17519,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "66": {
@@ -17055,7 +17541,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "67": {
@@ -17183,7 +17670,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "76": {
@@ -17206,7 +17694,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "77": {
@@ -17229,7 +17718,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "78": {
@@ -17252,7 +17742,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "79": {
@@ -17272,7 +17763,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "80": {
@@ -17296,7 +17788,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "81": {
@@ -17337,7 +17830,8 @@ var sketch = {
           "latentVisibility": true,
           "style": {
             "hidden": true,
-            "font-size": 10
+            "font-size": 10,
+            "selectable": false
           }
         },
         "83": {
@@ -17359,7 +17853,8 @@ var sketch = {
           "latentVisibility": true,
           "style": {
             "hidden": true,
-            "font-size": 10
+            "font-size": 10,
+            "selectable": false
           }
         },
         "84": {
@@ -17382,7 +17877,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "85": {
@@ -17405,7 +17901,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "86": {
@@ -17428,7 +17925,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "87": {
@@ -17450,7 +17948,8 @@ var sketch = {
           "latentVisibility": true,
           "style": {
             "hidden": true,
-            "font-size": 10
+            "font-size": 10,
+            "selectable": false
           }
         },
         "88": {
@@ -17471,7 +17970,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "89": {
@@ -17531,7 +18031,8 @@ var sketch = {
           },
           "constraint": "Pegged",
           "style": {
-            "font-size": 24
+            "font-size": 24,
+            "selectable": false
           }
         },
         "93": {
@@ -17552,7 +18053,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "94": {
@@ -17580,7 +18082,8 @@ var sketch = {
           },
           "constraint": "Pegged",
           "style": {
-            "font-size": 24
+            "font-size": 24,
+            "selectable": false
           }
         },
         "96": {
@@ -17601,7 +18104,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "97": {
@@ -17629,7 +18133,8 @@ var sketch = {
           },
           "constraint": "Pegged",
           "style": {
-            "font-size": 24
+            "font-size": 24,
+            "selectable": false
           }
         },
         "99": {
@@ -17642,7 +18147,10 @@ var sketch = {
               "y": 300
             }
           },
-          "textMFS": "<VL<T'What does the pink line segment represent?'><0><T'What does the green line segment represent?'><0><T'How is the product represented by the model?'><0><T'Why does the model change colour?'><0><T'Why is the area red in quadrants 1 and 3?'><0><T'Why is the area blue in quadrants 2 and 4?'><0><0>>"
+          "textMFS": "<VL<T'What does the pink line segment represent?'><0><T'What does the green line segment represent?'><0><T'How is the product represented by the model?'><0><T'Why does the model change colour?'><0><T'Why is the area red in quadrants 1 and 3?'><0><T'Why is the area blue in quadrants 2 and 4?'><0><0>>",
+          "style": {
+            "selectable": false
+          }
         },
         "100": {
           "kind": "Button",
@@ -17681,7 +18189,8 @@ var sketch = {
             "hidden": true,
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonToggleHideShow",
           "messages": [
@@ -17701,7 +18210,8 @@ var sketch = {
           },
           "label": "Next Page",
           "style": {
-            "color": "rgb(160,160,160)"
+            "color": "rgb(160,160,160)",
+            "selectable": false
           },
           "constraint": "ActionButtonLinkPage",
           "messages": [
@@ -17723,7 +18233,8 @@ var sketch = {
           "latentVisibility": true,
           "style": {
             "hidden": true,
-            "color": "fuchsia"
+            "color": "fuchsia",
+            "selectable": false
           }
         },
         "103": {
@@ -17740,7 +18251,8 @@ var sketch = {
           },
           "label": "Show Solution",
           "style": {
-            "color": "rgb(160,160,160)"
+            "color": "rgb(160,160,160)",
+            "selectable": false
           },
           "constraint": "ActionButtonToggleHideShow",
           "messages": [
@@ -17760,7 +18272,8 @@ var sketch = {
           },
           "textMFS": "<VL<T'Multiplying Two Integers Consolidation '>>",
           "style": {
-            "text-decoration": "underline"
+            "text-decoration": "underline",
+            "selectable": false
           }
         },
         "105": {
@@ -17774,7 +18287,8 @@ var sketch = {
           },
           "label": "Previous Page",
           "style": {
-            "color": "rgb(160,160,160)"
+            "color": "rgb(160,160,160)",
+            "selectable": false
           },
           "constraint": "ActionButtonLinkPage",
           "messages": [
@@ -17867,7 +18381,8 @@ var sketch = {
               "font-size": 28
             }
           }
-        }
+        },
+        "limitScrolling": true
       },
       "objects": {
         "1": {
@@ -17880,7 +18395,10 @@ var sketch = {
               "y": 49
             }
           },
-          "textMFS": "<VL<T'When is \u2026'><T'  '><T' the product of two integers greater than either integer.'><T''><T''><T''><0><T'the product of two integers less than either integer.'><T''><T''><0><T''><T' the product of two integers between both integers.'>>"
+          "textMFS": "<VL<T'When is \u2026'><T'  '><T' the product of two integers greater than either integer.'><T''><T''><T''><0><T'the product of two integers less than either integer.'><T''><T''><0><T''><T' the product of two integers between both integers.'>>",
+          "style": {
+            "selectable": false
+          }
         },
         "2": {
           "kind": "Text",
@@ -17895,7 +18413,8 @@ var sketch = {
           "textMFS": "<T'Multiplying Two Integers Consolidation '>",
           "style": {
             "font-size": 20,
-            "text-decoration": "underline"
+            "text-decoration": "underline",
+            "selectable": false
           }
         },
         "3": {
@@ -17912,7 +18431,8 @@ var sketch = {
           "latentVisibility": true,
           "style": {
             "hidden": true,
-            "color": "fuchsia"
+            "color": "fuchsia",
+            "selectable": false
           }
         },
         "4": {
@@ -17929,7 +18449,8 @@ var sketch = {
           },
           "label": "Show Solution",
           "style": {
-            "color": "rgb(160,160,160)"
+            "color": "rgb(160,160,160)",
+            "selectable": false
           },
           "constraint": "ActionButtonToggleHideShow",
           "messages": [
@@ -17948,7 +18469,8 @@ var sketch = {
           },
           "label": "Next Page",
           "style": {
-            "color": "rgb(160,160,160)"
+            "color": "rgb(160,160,160)",
+            "selectable": false
           },
           "constraint": "ActionButtonLinkPage",
           "messages": [
@@ -17967,7 +18489,8 @@ var sketch = {
           },
           "label": "Previous Page",
           "style": {
-            "color": "rgb(160,160,160)"
+            "color": "rgb(160,160,160)",
+            "selectable": false
           },
           "constraint": "ActionButtonLinkPage",
           "messages": [
@@ -18060,7 +18583,8 @@ var sketch = {
               "font-size": 28
             }
           }
-        }
+        },
+        "limitScrolling": true
       },
       "objects": {
         "1": {
@@ -18075,7 +18599,8 @@ var sketch = {
           },
           "textMFS": "<T'If the product is negative then one of the integers is negative.'>",
           "style": {
-            "font-size": 18
+            "font-size": 18,
+            "selectable": false
           }
         },
         "2": {
@@ -18090,7 +18615,8 @@ var sketch = {
           },
           "textMFS": "<T'If the product is positive then one of the integers is positive.'>",
           "style": {
-            "font-size": 18
+            "font-size": 18,
+            "selectable": false
           }
         },
         "3": {
@@ -18105,7 +18631,8 @@ var sketch = {
           },
           "textMFS": "<T'If both integers have the same sign their product could be negative.'>",
           "style": {
-            "font-size": 18
+            "font-size": 18,
+            "selectable": false
           }
         },
         "4": {
@@ -18120,7 +18647,8 @@ var sketch = {
           },
           "textMFS": "<VL<T'Determine if the following statements are always true, sometimes true or never true. '><T'Explain fully using one of the models as an example.'>>",
           "style": {
-            "font-size": 18
+            "font-size": 18,
+            "selectable": false
           }
         },
         "5": {
@@ -18135,7 +18663,8 @@ var sketch = {
           },
           "textMFS": "<T'Multiplying Two Integers Consolidation '>",
           "style": {
-            "text-decoration": "underline"
+            "text-decoration": "underline",
+            "selectable": false
           }
         },
         "6": {
@@ -18149,7 +18678,8 @@ var sketch = {
           },
           "label": "Next Page",
           "style": {
-            "color": "rgb(160,160,160)"
+            "color": "rgb(160,160,160)",
+            "selectable": false
           },
           "constraint": "ActionButtonLinkPage",
           "messages": [
@@ -18168,7 +18698,8 @@ var sketch = {
           },
           "label": "Previous Page",
           "style": {
-            "color": "rgb(160,160,160)"
+            "color": "rgb(160,160,160)",
+            "selectable": false
           },
           "constraint": "ActionButtonLinkPage",
           "messages": [
@@ -18264,7 +18795,8 @@ var sketch = {
               "font-size": 28
             }
           }
-        }
+        },
+        "limitScrolling": true
       },
       "objects": {
         "1": {
@@ -18285,7 +18817,8 @@ var sketch = {
             "font-size": 16,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "2": {
@@ -18306,7 +18839,8 @@ var sketch = {
             "font-size": 16,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "3": {
@@ -18329,7 +18863,8 @@ var sketch = {
             "color": "rgb(255,128,0)",
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonAnimate",
           "messages": [
@@ -18374,7 +18909,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "5": {
@@ -18395,7 +18931,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "6": {
@@ -18416,7 +18953,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "7": {
@@ -18437,7 +18975,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "8": {
@@ -18456,7 +18995,8 @@ var sketch = {
             "hidden": true,
             "font-size": 10,
             "text-decoration": "none",
-            "color": "rgb(255,128,0)"
+            "color": "rgb(255,128,0)",
+            "selectable": false
           }
         },
         "9": {
@@ -18475,7 +19015,8 @@ var sketch = {
             "hidden": true,
             "font-size": 10,
             "text-decoration": "none",
-            "color": "rgb(255,128,0)"
+            "color": "rgb(255,128,0)",
+            "selectable": false
           }
         },
         "10": {
@@ -18498,7 +19039,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "11": {
@@ -18522,7 +19064,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "12": {
@@ -18559,7 +19102,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "14": {
@@ -18580,7 +19124,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "15": {
@@ -18601,7 +19146,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "16": {
@@ -18622,7 +19168,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "17": {
@@ -18643,7 +19190,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "18": {
@@ -18664,7 +19212,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "19": {
@@ -18685,7 +19234,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "20": {
@@ -18706,7 +19256,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "21": {
@@ -18727,7 +19278,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "22": {
@@ -18748,7 +19300,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "23": {
@@ -18769,7 +19322,8 @@ var sketch = {
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "24": {
@@ -18785,7 +19339,8 @@ var sketch = {
           "textMFS": "<T'Multiplying Two Integers - Practice'>",
           "style": {
             "font-size": 20,
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "25": {
@@ -18990,7 +19545,8 @@ var sketch = {
             "hidden": true,
             "font-size": 10,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "38": {
@@ -19009,7 +19565,8 @@ var sketch = {
             "hidden": true,
             "font-size": 10,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "39": {
@@ -19153,7 +19710,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "48": {
@@ -19173,7 +19731,8 @@ var sketch = {
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "49": {
@@ -19196,7 +19755,8 @@ var sketch = {
             "hidden": true,
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonAnimate",
           "messages": [
@@ -19260,7 +19820,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "51": {
@@ -19282,7 +19843,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "52": {
@@ -19304,7 +19866,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "53": {
@@ -19326,7 +19889,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "54": {
@@ -19349,7 +19913,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "55": {
@@ -19373,7 +19938,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "56": {
@@ -19396,7 +19962,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "57": {
@@ -19420,7 +19987,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "58": {
@@ -19443,7 +20011,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "59": {
@@ -19467,7 +20036,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "60": {
@@ -19490,7 +20060,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "61": {
@@ -19511,7 +20082,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "62": {
@@ -19550,7 +20122,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "64": {
@@ -19573,7 +20146,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "65": {
@@ -19594,7 +20168,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "66": {
@@ -19633,7 +20208,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "68": {
@@ -19654,7 +20230,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "69": {
@@ -19694,7 +20271,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "71": {
@@ -19717,7 +20295,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "72": {
@@ -19741,7 +20320,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "73": {
@@ -19764,7 +20344,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "74": {
@@ -19788,7 +20369,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "75": {
@@ -19811,7 +20393,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "76": {
@@ -19835,7 +20418,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "77": {
@@ -19858,7 +20442,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "78": {
@@ -19882,7 +20467,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "79": {
@@ -19905,7 +20491,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "80": {
@@ -20927,7 +21514,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "152": {
@@ -20950,7 +21538,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "153": {
@@ -20973,7 +21562,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "154": {
@@ -20997,7 +21587,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "155": {
@@ -21020,7 +21611,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "156": {
@@ -21043,7 +21635,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "157": {
@@ -21067,7 +21660,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "158": {
@@ -21090,7 +21684,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "159": {
@@ -21114,7 +21709,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "160": {
@@ -21138,7 +21734,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "161": {
@@ -21161,7 +21758,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "162": {
@@ -21184,7 +21782,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "163": {
@@ -21208,7 +21807,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "164": {
@@ -21231,7 +21831,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "165": {
@@ -21255,7 +21856,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "166": {
@@ -21633,7 +22235,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "192": {
@@ -21656,7 +22259,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "193": {
@@ -21679,7 +22283,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "194": {
@@ -21703,7 +22308,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "195": {
@@ -21726,7 +22332,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "196": {
@@ -21749,7 +22356,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "197": {
@@ -21772,7 +22380,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "198": {
@@ -21795,7 +22404,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "199": {
@@ -21918,7 +22528,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "205": {
@@ -21941,7 +22552,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "206": {
@@ -22163,7 +22775,8 @@ var sketch = {
             "hidden": true,
             "font-size": 10,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "217": {
@@ -22186,7 +22799,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "218": {
@@ -22209,7 +22823,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "219": {
@@ -22230,7 +22845,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "220": {
@@ -22260,7 +22876,8 @@ var sketch = {
           "style": {
             "font-size": 16,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "222": {
@@ -22283,7 +22900,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "223": {
@@ -22306,7 +22924,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "224": {
@@ -22327,7 +22946,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "225": {
@@ -22357,7 +22977,8 @@ var sketch = {
           "style": {
             "font-size": 16,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "227": {
@@ -22380,7 +23001,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "228": {
@@ -22401,7 +23023,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "229": {
@@ -22431,7 +23054,8 @@ var sketch = {
           "style": {
             "font-size": 16,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "231": {
@@ -22454,7 +23078,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "232": {
@@ -22478,7 +23103,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "233": {
@@ -22499,7 +23125,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "234": {
@@ -22539,7 +23166,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "236": {
@@ -22560,7 +23188,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "237": {
@@ -22599,7 +23228,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "239": {
@@ -22623,7 +23253,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "240": {
@@ -22644,7 +23275,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "241": {
@@ -22684,7 +23316,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "243": {
@@ -22705,7 +23338,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "244": {
@@ -22745,7 +23379,8 @@ var sketch = {
             "hidden": true,
             "font-size": 12,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "246": {
@@ -22769,7 +23404,8 @@ var sketch = {
             "hidden": true,
             "font-size": 12,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "247": {
@@ -22783,7 +23419,8 @@ var sketch = {
           "style": {
             "font-size": 16,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "248": {
@@ -22807,7 +23444,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "249": {
@@ -22829,7 +23467,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "250": {
@@ -22849,7 +23488,8 @@ var sketch = {
           "textMFS": "<VL<H<?1xC0001<H<T'\u20132'>>><T'('><?1xC0002<H<T'\u20134'>>><T')'>>>",
           "style": {
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "251": {
@@ -22872,7 +23512,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "252": {
@@ -22896,7 +23537,8 @@ var sketch = {
             "hidden": true,
             "font-size": 12,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "253": {
@@ -22920,7 +23562,8 @@ var sketch = {
             "hidden": true,
             "font-size": 12,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "254": {
@@ -22944,7 +23587,8 @@ var sketch = {
             "hidden": true,
             "font-size": 12,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "255": {
@@ -22968,7 +23612,8 @@ var sketch = {
             "hidden": true,
             "font-size": 12,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "256": {
@@ -22991,7 +23636,8 @@ var sketch = {
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "257": {
@@ -23093,7 +23739,8 @@ var sketch = {
           "style": {
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonToggleHideShow",
           "messages": [
@@ -23895,7 +24542,8 @@ var sketch = {
           "style": {
             "font-size": 16,
             "text-decoration": "none",
-            "color": "blue"
+            "color": "blue",
+            "selectable": false
           }
         },
         "304": {
@@ -23915,7 +24563,8 @@ var sketch = {
           "style": {
             "font-size": 16,
             "text-decoration": "none",
-            "color": "black"
+            "color": "black",
+            "selectable": false
           }
         },
         "305": {
@@ -23965,7 +24614,8 @@ var sketch = {
             "hidden": true,
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonShow",
           "messages": [
@@ -24021,7 +24671,8 @@ var sketch = {
             "hidden": true,
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonHide",
           "messages": [
@@ -24056,7 +24707,8 @@ var sketch = {
             "hidden": true,
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonHide",
           "messages": [
@@ -24091,7 +24743,8 @@ var sketch = {
             "hidden": true,
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonShow",
           "messages": [
@@ -24117,7 +24770,8 @@ var sketch = {
           "latentVisibility": true,
           "style": {
             "hidden": true,
-            "text-decoration": "none"
+            "text-decoration": "none",
+            "selectable": false
           }
         },
         "310": {
@@ -24137,7 +24791,8 @@ var sketch = {
             "hidden": true,
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonHide",
           "messages": [
@@ -24163,7 +24818,8 @@ var sketch = {
             "hidden": true,
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonShow",
           "messages": [
@@ -24190,7 +24846,10 @@ var sketch = {
           "constraint": "ActionButtonPresentSimultaneously",
           "messages": [
             "Show Product"
-          ]
+          ],
+          "style": {
+            "selectable": false
+          }
         },
         "313": {
           "kind": "Button",
@@ -24211,7 +24870,10 @@ var sketch = {
           "constraint": "ActionButtonPresentSimultaneously",
           "messages": [
             "New Product"
-          ]
+          ],
+          "style": {
+            "selectable": false
+          }
         },
         "314": {
           "kind": "Button",
@@ -24230,7 +24892,10 @@ var sketch = {
           "constraint": "ActionButtonPresentSimultaneously",
           "messages": [
             "Show Hint"
-          ]
+          ],
+          "style": {
+            "selectable": false
+          }
         },
         "315": {
           "kind": "Text",
@@ -24245,7 +24910,8 @@ var sketch = {
           "textMFS": "<VL<SR1G1L1<T'Use the New Product button to generate questions.'>><0><T'Find the product of 10 different pairs of integers.'><T'Explain how you know you are correct.'>>",
           "style": {
             "text-decoration": "none",
-            "color": "green"
+            "color": "green",
+            "selectable": false
           }
         },
         "316": {
@@ -24262,7 +24928,10 @@ var sketch = {
           "messages": [
             "Previous Page"
           ],
-          "pageId": "7"
+          "pageId": "7",
+          "style": {
+            "selectable": false
+          }
         }
       }
     }
